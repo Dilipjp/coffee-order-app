@@ -12,9 +12,15 @@ Welcome to the Coffee Order App! This mobile application is designed to simplify
 - Order Status Notifications: Stay informed about the progress of your order through push notifications. Receive updates when your order is being prepared or when it's ready for pickup.
 
 
+
+
 ## Authors
 
 - [@Dilipjp](https://github.com/Dilipjp/)
+- [@Suhas](https://github.com/suhas)
+- [@Santhosh](https://github.com/Santhosh)
+
+
 
 ## Support
 
