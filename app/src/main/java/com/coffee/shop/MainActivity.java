@@ -41,15 +41,11 @@ public class MainActivity extends AppCompatActivity {
 
         navigationView.setNavigationItemSelectedListener(item -> {
             // Handle navigation item clicks
-            switch (item.getItemId()) {
-                case R.id.menu_profile:
-                    // Open the profile page
-                    startActivity(new Intent(MainActivity.this, ProfileActivity.class));
-                    break;
-                case R.id.menu_orders:
-                    // Open the orders page
-                    startActivity(new Intent(MainActivity.this, OrderActivity.class));
-                    break;
+            int itemId = item.getItemId();
+            if (itemId == R.id.menu_profile) {// Open the profile page
+                startActivity(new Intent(MainActivity.this, ProfileActivity.class));
+            } else if (itemId == R.id.menu_orders) {// Open the orders page
+                startActivity(new Intent(MainActivity.this, OrderActivity.class));
                 // Add more cases for other menu items if needed
             }
 

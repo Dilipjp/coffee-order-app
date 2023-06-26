@@ -1,14 +1,15 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:2:1-35:12
-INJECTED from /Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:2:1-35:12
-INJECTED from /Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:2:1-35:12
-INJECTED from /Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:2:1-35:12
+ADDED from /Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:2:1-43:12
+INJECTED from /Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:2:1-43:12
+INJECTED from /Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:2:1-43:12
+INJECTED from /Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:2:1-43:12
 MERGED from [com.google.android.material:material:1.5.0] /Users/Admin/.gradle/caches/transforms-3/7a04553ca9af6ddbf476fcc7c860a00a/transformed/material-1.5.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/Admin/.gradle/caches/transforms-3/0353d767801c48456a27eda01ed2644d/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/Admin/.gradle/caches/transforms-3/cbaaa5d98ee6ec3f30223bdd69287482/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/Admin/.gradle/caches/transforms-3/ed0ff587a1864cda5e2e24ef58dfc0cd/transformed/appcompat-1.6.1/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:17:1-73:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/Admin/.gradle/caches/transforms-3/8b92cc820134bbfbe1e5046870368d45/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/Admin/.gradle/caches/transforms-3/de3aeeb34b7255b7b2442af14577daa1/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/Admin/.gradle/caches/transforms-3/75ae09624607b1d551ba8a9b05a90311/transformed/play-services-auth-api-phone-17.4.0/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/Admin/.gradle/caches/transforms-3/352350d01950b42e41052c0b8991e3c2/transformed/play-services-safetynet-17.0.0/AndroidManifest.xml:17:1-24:12
@@ -41,7 +42,6 @@ MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/Admin/.gradle/ca
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/Admin/.gradle/caches/transforms-3/c7a191cd82385db201399497594f5497/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:17:1-37:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Users/Admin/.gradle/caches/transforms-3/a5d86724a8d938b7baec79a7672a74db/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/Admin/.gradle/caches/transforms-3/cbe05a2c5db0202a0e72afcd1a3191f9/transformed/savedstate-1.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.cardview:cardview:1.0.0] /Users/Admin/.gradle/caches/transforms-3/8b92cc820134bbfbe1e5046870368d45/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/Admin/.gradle/caches/transforms-3/5d9d9a66e5892d3fe6e2e3971d02adbf/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-components:17.0.1] /Users/Admin/.gradle/caches/transforms-3/99993ebd15bf6937c0e61d730b04496f/transformed/firebase-components-17.0.1/AndroidManifest.xml:15:1-23:12
 MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/Admin/.gradle/caches/transforms-3/235683a10d54bc61cef17e83fb5df22a/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
@@ -54,27 +54,27 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/Admin/.gradle/cach
 MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/Admin/.gradle/caches/transforms-3/8c0dc37c16c36b881d3bafdd6c2df340/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /Users/Admin/.gradle/caches/transforms-3/4b1c944598b3b00ebf36fd2899af96f0/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/Admin/.gradle/caches/transforms-3/6ba5a4156345c64f869d44cf37a6fc94/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:2:1-35:12
-INJECTED from /Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:2:1-35:12
-INJECTED from /Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:2:1-43:12
+INJECTED from /Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:2:1-43:12
+INJECTED from /Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:2:1-43:12
 	package
 		INJECTED from /Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml
-		ADDED from /Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:2:1-35:12
+		ADDED from /Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:2:1-43:12
 		INJECTED from /Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml
-		ADDED from /Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:2:1-35:12
+		ADDED from /Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:2:1-43:12
 		INJECTED from /Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml
 	xmlns:tools
 		ADDED from /Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from /Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml
-		ADDED from /Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:2:1-35:12
+		ADDED from /Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:2:1-43:12
 		INJECTED from /Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:5:5-33:19
+ADDED from /Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:5:5-41:19
 MERGED from [com.google.android.material:material:1.5.0] /Users/Admin/.gradle/caches/transforms-3/7a04553ca9af6ddbf476fcc7c860a00a/transformed/material-1.5.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.5.0] /Users/Admin/.gradle/caches/transforms-3/7a04553ca9af6ddbf476fcc7c860a00a/transformed/material-1.5.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/Admin/.gradle/caches/transforms-3/0353d767801c48456a27eda01ed2644d/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
@@ -123,40 +123,56 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/Admi
 		ADDED from /Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:13:9-48
 	android:dataExtractionRules
 		ADDED from /Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:7:9-65
-activity#com.coffee.shop.ProfileActivity
-ADDED from /Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:15:9-17:40
+activity#com.coffee.shop.OrderActivity
+ADDED from /Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:15:9-18:71
 	android:exported
 		ADDED from /Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:17:13-37
+	android:theme
+		ADDED from /Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:18:13-69
 	android:name
-		ADDED from /Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:16:13-44
+		ADDED from /Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:16:13-42
+activity#com.coffee.shop.ProfileActivity
+ADDED from /Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:19:9-22:71
+	android:exported
+		ADDED from /Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:21:13-37
+	android:theme
+		ADDED from /Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:22:13-69
+	android:name
+		ADDED from /Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:20:13-44
 activity#com.coffee.shop.LoginActivity
-ADDED from /Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:18:9-20:40
+ADDED from /Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:23:9-26:71
 	android:exported
-		ADDED from /Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:20:13-37
+		ADDED from /Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from /Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:26:13-69
 	android:name
-		ADDED from /Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:19:13-42
+		ADDED from /Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:24:13-42
 activity#com.coffee.shop.RegisterActivity
-ADDED from /Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:21:9-29:20
+ADDED from /Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:27:9-36:20
 	android:exported
-		ADDED from /Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:23:13-36
+		ADDED from /Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:29:13-36
+	android:theme
+		ADDED from /Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:30:13-69
 	android:name
-		ADDED from /Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:22:13-45
+		ADDED from /Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:28:13-45
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:24:13-28:29
+ADDED from /Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:31:13-35:29
 action#android.intent.action.MAIN
-ADDED from /Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:25:17-69
+ADDED from /Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:32:17-69
 	android:name
-		ADDED from /Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:25:25-66
+		ADDED from /Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:32:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:27:17-77
+ADDED from /Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:34:17-77
 	android:name
-		ADDED from /Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:27:27-74
+		ADDED from /Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:34:27-74
 activity#com.coffee.shop.MainActivity
-ADDED from /Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:30:9-32:39
+ADDED from /Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:37:9-40:71
 	android:exported
-		ADDED from /Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:32:13-36
+		ADDED from /Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:39:13-36
+	android:theme
+		ADDED from /Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:40:13-69
 	android:name
-		ADDED from /Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:31:13-41
+		ADDED from /Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:38:13-41
 uses-sdk
 INJECTED from /Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml
@@ -171,6 +187,8 @@ MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/Admin/.gradle/caches/tra
 MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/Admin/.gradle/caches/transforms-3/ed0ff587a1864cda5e2e24ef58dfc0cd/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:21:5-44
 MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/Admin/.gradle/caches/transforms-3/8b92cc820134bbfbe1e5046870368d45/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/Admin/.gradle/caches/transforms-3/8b92cc820134bbfbe1e5046870368d45/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/Admin/.gradle/caches/transforms-3/de3aeeb34b7255b7b2442af14577daa1/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/Admin/.gradle/caches/transforms-3/de3aeeb34b7255b7b2442af14577daa1/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/Admin/.gradle/caches/transforms-3/75ae09624607b1d551ba8a9b05a90311/transformed/play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
@@ -235,8 +253,6 @@ MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Users/Admin/.gradle/ca
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Users/Admin/.gradle/caches/transforms-3/a5d86724a8d938b7baec79a7672a74db/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/Admin/.gradle/caches/transforms-3/cbe05a2c5db0202a0e72afcd1a3191f9/transformed/savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/Admin/.gradle/caches/transforms-3/cbe05a2c5db0202a0e72afcd1a3191f9/transformed/savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cardview:cardview:1.0.0] /Users/Admin/.gradle/caches/transforms-3/8b92cc820134bbfbe1e5046870368d45/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] /Users/Admin/.gradle/caches/transforms-3/8b92cc820134bbfbe1e5046870368d45/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/Admin/.gradle/caches/transforms-3/5d9d9a66e5892d3fe6e2e3971d02adbf/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/Admin/.gradle/caches/transforms-3/5d9d9a66e5892d3fe6e2e3971d02adbf/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-components:17.0.1] /Users/Admin/.gradle/caches/transforms-3/99993ebd15bf6937c0e61d730b04496f/transformed/firebase-components-17.0.1/AndroidManifest.xml:19:5-21:41

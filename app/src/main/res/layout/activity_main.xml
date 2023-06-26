@@ -21,69 +21,7 @@
             android:theme="@style/ThemeOverlay.AppCompat.ActionBar" />
 
         <!-- Other content views -->
-        <ScrollView
-            xmlns:android="http://schemas.android.com/apk/res/android"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <!-- Header -->
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="200dp"
-                    android:scaleType="centerCrop"
-                    android:src="@drawable/logo" />
-
-                <!-- Categories -->
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Categories"
-                    android:textSize="24sp"
-                    android:textStyle="bold"
-                    android:layout_marginTop="16dp"
-                    android:layout_marginStart="16dp" />
-
-                <!-- Horizontal RecyclerView for categories -->
-                <androidx.recyclerview.widget.RecyclerView
-                    android:id="@+id/categoriesRecyclerView"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="8dp" />
-
-                <!-- Featured Products -->
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Featured Products"
-                    android:textSize="24sp"
-                    android:textStyle="bold"
-                    android:layout_marginTop="16dp"
-                    android:layout_marginStart="16dp" />
-
-                <!-- Vertical RecyclerView for featured products -->
-                <androidx.recyclerview.widget.RecyclerView
-                    android:id="@+id/featuredProductsRecyclerView"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="8dp"
-
-
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="200dp"
-                    android:scaleType="centerCrop"
-                    android:src="@drawable/logo" />
-                />
-
-                <!-- Other content views -->
-
-            </LinearLayout>
-        </ScrollView>
+        
 
     </RelativeLayout>
 

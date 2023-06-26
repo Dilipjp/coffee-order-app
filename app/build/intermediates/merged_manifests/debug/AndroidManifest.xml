@@ -31,14 +31,21 @@
         android:testOnly="true"
         android:theme="@style/Theme.CoffeeShop" >
         <activity
+            android:name="com.coffee.shop.OrderActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Material3.Light.NoActionBar" />
+        <activity
             android:name="com.coffee.shop.ProfileActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.Material3.Light.NoActionBar" />
         <activity
             android:name="com.coffee.shop.LoginActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.Material3.Light.NoActionBar" />
         <activity
             android:name="com.coffee.shop.RegisterActivity"
-            android:exported="true" >
+            android:exported="true"
+            android:theme="@style/Theme.Material3.Light.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -47,7 +54,8 @@
         </activity>
         <activity
             android:name="com.coffee.shop.MainActivity"
-            android:exported="true" />
+            android:exported="true"
+            android:theme="@style/Theme.Material3.Light.NoActionBar" />
         <activity
             android:name="com.google.firebase.auth.internal.GenericIdpActivity"
             android:excludeFromRecents="true"

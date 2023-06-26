@@ -2454,6 +2454,7 @@ int drawable abc_textfield_search_material 0x7f070054
 int drawable abc_vector_test 0x7f070055
 int drawable avd_hide_password 0x7f070056
 int drawable avd_show_password 0x7f070057
+int drawable baseline_arrow_back_24 0x7f0700b3
 int drawable btn_checkbox_checked_mtrl 0x7f070058
 int drawable btn_checkbox_checked_to_unchecked_mtrl_animation 0x7f070059
 int drawable btn_checkbox_unchecked_mtrl 0x7f07005a
@@ -2650,6 +2651,7 @@ int id browser_actions_menu_item_icon 0x7f080065
 int id browser_actions_menu_item_text 0x7f080066
 int id browser_actions_menu_items 0x7f080067
 int id browser_actions_menu_view 0x7f080068
+int id btn_login 0x7f0801e9
 int id btn_register 0x7f080069
 int id buttonPanel 0x7f08006a
 int id cache_measures 0x7f08006b
@@ -2721,6 +2723,7 @@ int id dragLeft 0x7f0800ac
 int id dragRight 0x7f0800ad
 int id dragStart 0x7f0800ae
 int id dragUp 0x7f0800af
+int id drawerLayout 0x7f0801ea
 int id dropdown_menu 0x7f0800b0
 int id easeIn 0x7f0800b1
 int id easeInOut 0x7f0800b2
@@ -2729,6 +2732,7 @@ int id east 0x7f0800b4
 int id edit_query 0x7f0800b5
 int id elastic 0x7f0800b6
 int id email 0x7f0800b7
+int id emailTextView 0x7f0801eb
 int id end 0x7f0800b8
 int id endToStart 0x7f0800b9
 int id enterAlways 0x7f0800ba
@@ -2813,6 +2817,8 @@ int id material_timepicker_mode_button 0x7f080108
 int id material_timepicker_ok_button 0x7f080109
 int id material_timepicker_view 0x7f08010a
 int id material_value_index 0x7f08010b
+int id menu_orders 0x7f0801ec
+int id menu_profile 0x7f0801ed
 int id message 0x7f08010c
 int id middle 0x7f08010d
 int id mini 0x7f08010e
@@ -2847,6 +2853,8 @@ int id mtrl_picker_text_input_range_start 0x7f08012a
 int id mtrl_picker_title_text 0x7f08012b
 int id mtrl_view_tag_bottom_padding 0x7f08012c
 int id multiply 0x7f08012d
+int id nameTextView 0x7f0801ee
+int id navigationView 0x7f0801ef
 int id navigation_bar_item_active_indicator_view 0x7f08012e
 int id navigation_bar_item_icon_container 0x7f08012f
 int id navigation_bar_item_icon_view 0x7f080130
@@ -2886,12 +2894,14 @@ int id percent 0x7f080151
 int id pin 0x7f080152
 int id position 0x7f080153
 int id postLayout 0x7f080154
+int id profileImageView 0x7f0801f0
 int id progress_circular 0x7f080155
 int id progress_horizontal 0x7f080156
 int id progressbar 0x7f080157
 int id radio 0x7f080158
 int id ratio 0x7f080159
 int id rectangles 0x7f08015a
+int id registerNow 0x7f0801f1
 int id reverseSawtooth 0x7f08015b
 int id right 0x7f08015c
 int id rightToLeft 0x7f08015d
@@ -2999,6 +3009,7 @@ int id title 0x7f0801c2
 int id titleDividerNoCustom 0x7f0801c3
 int id title_template 0x7f0801c4
 int id toggle 0x7f0801c5
+int id toolbar 0x7f0801f2
 int id top 0x7f0801c6
 int id topPanel 0x7f0801c7
 int id touch_outside 0x7f0801c8
@@ -3122,6 +3133,8 @@ int layout abc_select_dialog_material 0x7f0b001a
 int layout abc_tooltip 0x7f0b001b
 int layout activity_login 0x7f0b001c
 int layout activity_main 0x7f0b001d
+int layout activity_order 0x7f0b0078
+int layout activity_profile 0x7f0b0079
 int layout activity_register 0x7f0b001e
 int layout browser_actions_context_menu_page 0x7f0b001f
 int layout browser_actions_context_menu_row 0x7f0b0020
@@ -3187,6 +3200,7 @@ int layout mtrl_picker_header_title_text 0x7f0b005b
 int layout mtrl_picker_header_toggle 0x7f0b005c
 int layout mtrl_picker_text_input_date 0x7f0b005d
 int layout mtrl_picker_text_input_date_range 0x7f0b005e
+int layout nav_header 0x7f0b007a
 int layout notification_action 0x7f0b005f
 int layout notification_action_tombstone 0x7f0b0060
 int layout notification_template_custom_big 0x7f0b0061
@@ -3212,6 +3226,7 @@ int layout text_view_with_line_height_from_layout 0x7f0b0074
 int layout text_view_with_line_height_from_style 0x7f0b0075
 int layout text_view_with_theme_line_height 0x7f0b0076
 int layout text_view_without_line_height 0x7f0b0077
+int menu nav_menu 0x7f130000
 int mipmap ic_launcher 0x7f0c0000
 int mipmap ic_launcher_round 0x7f0c0001
 int plurals mtrl_badge_content_description 0x7f0d0000
