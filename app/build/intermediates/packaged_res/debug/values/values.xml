@@ -3,6 +3,23 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">Coffee Shop</string>
+    <string name="default_web_client_id" translatable="false">578884096872-icqcaapbb713d361c255m1bk8806s5lj.apps.googleusercontent.com</string>
+    <string name="email">Email</string>
+    <string name="firebase_database_url" translatable="false">https://myproject01-93399.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">578884096872</string>
+    <string name="google_api_key" translatable="false">AIzaSyAm7WzA8T1lPFWJORgigFmvX4V-HKatal8</string>
+    <string name="google_app_id" translatable="false">1:578884096872:android:85e3ca3d7b404d764efcdd</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAm7WzA8T1lPFWJORgigFmvX4V-HKatal8</string>
+    <string name="google_storage_bucket" translatable="false">myproject01-93399.appspot.com</string>
+    <string name="login">Log In</string>
+    <string name="loginNow">Already have an account? Log in</string>
+    <string name="logout">Log Out</string>
+    <string name="navigation_drawer_close">navigation_drawer_close</string>
+    <string name="navigation_drawer_open">navigation_drawer_open</string>
+    <string name="password">Password</string>
+    <string name="project_id" translatable="false">myproject01-93399</string>
+    <string name="register">Sign Up</string>
+    <string name="registerNow">Don\'t have an account? Register</string>
     <style name="Base.Theme.CoffeeShop" parent="Theme.Material3.DayNight.NoActionBar">
         
         

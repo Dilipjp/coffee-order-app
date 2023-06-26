@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.coffee.shop.app-mergeDebugResources-26:/values-watch-v21/values-watch-v21.xml",
+            "outputFile": "com.coffee.shop.app-mergeDebugResources-31:/values-watch-v21/values-watch-v21.xml",
             "map": [
                 {
-                    "source": "/Users/Admin/.gradle/caches/transforms-3/f519227ce83c25a4daf72bc8b7b65062/transformed/appcompat-1.6.1/res/values-watch-v21/values-watch-v21.xml",
+                    "source": "/Users/Admin/.gradle/caches/transforms-3/ed0ff587a1864cda5e2e24ef58dfc0cd/transformed/appcompat-1.6.1/res/values-watch-v21/values-watch-v21.xml",
                     "from": {
                         "startLines": "2,6,10",
                         "startColumns": "4,4,4",

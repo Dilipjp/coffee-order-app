@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Coffee Shop</string>
+    <string name="login">Log In</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="register">Sign Up</string>
+    <string name="loginNow">Already have an account? Log in</string>
+    <string name="registerNow">Don\'t have an account? Register</string>
+    <string name="logout">Log Out</string>
+    <string name="navigation_drawer_open">navigation_drawer_open</string>
+    <string name="navigation_drawer_close">navigation_drawer_close</string>
 </resources>
