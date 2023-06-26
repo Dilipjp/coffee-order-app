@@ -31,6 +31,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.CoffeeShop" >
         <activity
+            android:name="com.coffee.shop.ProfileActivity"
+            android:exported="false" />
+        <activity
             android:name="com.coffee.shop.LoginActivity"
             android:exported="false" />
         <activity
