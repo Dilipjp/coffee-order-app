@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.coffee.shop.app-mergeDebugResources-31:/values-hu/values-hu.xml",
+            "outputFile": "com.coffee.shop.app-mergeDebugResources-32:/values-hu/values-hu.xml",
             "map": [
                 {
                     "source": "/Users/Admin/.gradle/caches/transforms-3/8397bc5643c3f05e3401ec52c0dad312/transformed/browser-1.4.0/res/values-hu/values-hu.xml",

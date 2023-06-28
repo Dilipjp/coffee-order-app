@@ -2490,6 +2490,7 @@ int drawable design_snackbar_background 0x7f070077
 int drawable googleg_disabled_color_18 0x7f070078
 int drawable googleg_standard_color_18 0x7f070079
 int drawable ic_clock_black_24dp 0x7f07007a
+int drawable ic_fsplash 0x7f0700b4
 int drawable ic_keyboard_black_24dp 0x7f07007b
 int drawable ic_launcher_background 0x7f07007c
 int drawable ic_launcher_foreground 0x7f07007d
@@ -2754,6 +2755,7 @@ int id fragment_container_view_tag 0x7f0800c9
 int id frost 0x7f0800ca
 int id ghost_view 0x7f0800cb
 int id ghost_view_holder 0x7f0800cc
+int id glide_custom_view_target_tag 0x7f0801f3
 int id gone 0x7f0800cd
 int id graph 0x7f0800ce
 int id graph_wrap 0x7f0800cf
@@ -3136,6 +3138,7 @@ int layout activity_main 0x7f0b001d
 int layout activity_order 0x7f0b0078
 int layout activity_profile 0x7f0b0079
 int layout activity_register 0x7f0b001e
+int layout activity_splash 0x7f0b007b
 int layout browser_actions_context_menu_page 0x7f0b001f
 int layout browser_actions_context_menu_row 0x7f0b0020
 int layout custom_dialog 0x7f0b0021
