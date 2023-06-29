@@ -31,6 +31,10 @@
         android:testOnly="true"
         android:theme="@style/Theme.CoffeeShop" >
         <activity
+            android:name="com.coffee.shop.RestaurantMenuActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Material3.Light.NoActionBar" />
+        <activity
             android:name="com.coffee.shop.SplashActivity"
             android:exported="true"
             android:theme="@style/Theme.Material3.Light.NoActionBar" >
@@ -55,8 +59,7 @@
         <activity
             android:name="com.coffee.shop.RegisterActivity"
             android:exported="true"
-            android:theme="@style/Theme.Material3.Light.NoActionBar" >
-        </activity>
+            android:theme="@style/Theme.Material3.Light.NoActionBar" />
         <activity
             android:name="com.coffee.shop.MainActivity"
             android:exported="true"

@@ -2469,6 +2469,7 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable button_bg
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
 drawable common_google_signin_btn_icon_dark_focused
@@ -2495,6 +2496,7 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable ic_add_circle
 drawable ic_clock_black_24dp
 drawable ic_fsplash
 drawable ic_keyboard_black_24dp
@@ -2507,6 +2509,7 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_remove_circle
 drawable logo
 drawable m3_appbar_background
 drawable m3_popupmenu_background_overlay
@@ -2624,6 +2627,8 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id addMoreLayout
+id addToCartButton
 id adjust_height
 id adjust_width
 id alertTitle
@@ -2660,6 +2665,7 @@ id browser_actions_menu_items
 id browser_actions_menu_view
 id btn_login
 id btn_register
+id buttonCheckout
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -2783,6 +2789,8 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageAddOne
+id imageMinus
 id immediateStop
 id included
 id info
@@ -2826,6 +2834,8 @@ id material_timepicker_mode_button
 id material_timepicker_ok_button
 id material_timepicker_view
 id material_value_index
+id menuName
+id menuPrice
 id menu_orders
 id menu_profile
 id message
@@ -3035,6 +3045,7 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tvCount
 id unchecked
 id uniform
 id unlabeled
@@ -3150,6 +3161,7 @@ layout activity_main
 layout activity_order
 layout activity_profile
 layout activity_register
+layout activity_restaurant_menu
 layout activity_splash
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
@@ -3186,6 +3198,7 @@ layout material_time_input
 layout material_timepicker
 layout material_timepicker_dialog
 layout material_timepicker_textinput_display
+layout menu_recycler_row
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions
 layout mtrl_alert_dialog_title
