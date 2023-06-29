@@ -29,7 +29,7 @@
 18-->[androidx.core:core:1.9.0] /Users/Admin/.gradle/caches/transforms-3/57c95f7bce2a4c36ea305cb3932f8371/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
 19
 20    <application
-20-->/Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:5:5-49:19
+20-->/Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:5:5-52:19
 21        android:allowBackup="true"
 21-->/Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:6:9-35
 22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -52,209 +52,215 @@
 32        android:theme="@style/Theme.CoffeeShop" >
 32-->/Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:13:9-48
 33        <activity
-33-->/Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:15:9-18:71
-34            android:name="com.coffee.shop.RestaurantMenuActivity"
+33-->/Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:15:9-17:40
+34            android:name="com.coffee.shop.PlaceYourOrderActivity"
 34-->/Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:16:13-51
-35            android:exported="false"
+35            android:exported="false" />
 35-->/Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:17:13-37
-36            android:theme="@style/Theme.Material3.Light.NoActionBar" />
-36-->/Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:18:13-69
-37        <activity
-37-->/Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:19:9-28:20
-38            android:name="com.coffee.shop.SplashActivity"
-38-->/Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:20:13-43
-39            android:exported="true"
-39-->/Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:21:13-36
-40            android:theme="@style/Theme.Material3.Light.NoActionBar" >
-40-->/Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:22:13-69
-41            <intent-filter>
-41-->/Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:23:13-27:29
-42                <action android:name="android.intent.action.MAIN" />
-42-->/Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:24:17-69
-42-->/Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:24:25-66
-43
-44                <category android:name="android.intent.category.LAUNCHER" />
-44-->/Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:26:17-77
-44-->/Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:26:27-74
-45            </intent-filter>
-46        </activity>
-47        <activity
-47-->/Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:29:9-32:72
-48            android:name="com.coffee.shop.OrderActivity"
-48-->/Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:30:13-42
-49            android:exported="false"
-49-->/Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:31:13-37
-50            android:theme="@style/Theme.Material3.Light.NoActionBar" />
-50-->/Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:32:13-69
-51        <activity
-51-->/Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:33:9-36:72
-52            android:name="com.coffee.shop.ProfileActivity"
-52-->/Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:34:13-44
-53            android:exported="false"
-53-->/Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:35:13-37
-54            android:theme="@style/Theme.Material3.Light.NoActionBar" />
-54-->/Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:36:13-69
-55        <activity
-55-->/Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:37:9-40:72
-56            android:name="com.coffee.shop.LoginActivity"
-56-->/Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:38:13-42
-57            android:exported="false"
-57-->/Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:39:13-37
-58            android:theme="@style/Theme.Material3.Light.NoActionBar" />
-58-->/Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:40:13-69
-59        <activity
-59-->/Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:41:9-44:81
-60            android:name="com.coffee.shop.RegisterActivity"
-60-->/Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:42:13-45
-61            android:exported="true"
-61-->/Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:43:13-36
-62            android:theme="@style/Theme.Material3.Light.NoActionBar" />
-62-->/Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:44:13-69
-63        <activity
-63-->/Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:45:9-48:72
-64            android:name="com.coffee.shop.MainActivity"
-64-->/Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:46:13-41
-65            android:exported="true"
-65-->/Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:47:13-36
-66            android:theme="@style/Theme.Material3.Light.NoActionBar" />
-66-->/Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:48:13-69
-67        <activity
-67-->[com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:27:9-44:20
-68            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
-68-->[com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:28:13-80
-69            android:excludeFromRecents="true"
-69-->[com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:29:13-46
-70            android:exported="true"
-70-->[com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:30:13-36
-71            android:launchMode="singleTask"
-71-->[com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:31:13-44
-72            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-72-->[com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:32:13-72
-73            <intent-filter>
-73-->[com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:33:13-43:29
-74                <action android:name="android.intent.action.VIEW" />
-74-->[com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:34:17-69
-74-->[com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:34:25-66
-75
-76                <category android:name="android.intent.category.DEFAULT" />
-76-->[com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:36:17-76
-76-->[com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:36:27-73
-77                <category android:name="android.intent.category.BROWSABLE" />
-77-->[com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:37:17-78
-77-->[com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:37:27-75
+36        <activity
+36-->/Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:18:9-21:72
+37            android:name="com.coffee.shop.RestaurantMenuActivity"
+37-->/Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:19:13-51
+38            android:exported="false"
+38-->/Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:20:13-37
+39            android:theme="@style/Theme.Material3.Light.NoActionBar" />
+39-->/Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:21:13-69
+40        <activity
+40-->/Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:22:9-31:20
+41            android:name="com.coffee.shop.SplashActivity"
+41-->/Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:23:13-43
+42            android:exported="true"
+42-->/Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:24:13-36
+43            android:theme="@style/Theme.Material3.Light.NoActionBar" >
+43-->/Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:25:13-69
+44            <intent-filter>
+44-->/Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:26:13-30:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->/Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:27:17-69
+45-->/Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:27:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->/Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:29:17-77
+47-->/Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:29:27-74
+48            </intent-filter>
+49        </activity>
+50        <activity
+50-->/Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:32:9-35:72
+51            android:name="com.coffee.shop.OrderActivity"
+51-->/Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:33:13-42
+52            android:exported="false"
+52-->/Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:34:13-37
+53            android:theme="@style/Theme.Material3.Light.NoActionBar" />
+53-->/Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:35:13-69
+54        <activity
+54-->/Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:36:9-39:72
+55            android:name="com.coffee.shop.ProfileActivity"
+55-->/Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:37:13-44
+56            android:exported="false"
+56-->/Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:38:13-37
+57            android:theme="@style/Theme.Material3.Light.NoActionBar" />
+57-->/Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:39:13-69
+58        <activity
+58-->/Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:40:9-43:72
+59            android:name="com.coffee.shop.LoginActivity"
+59-->/Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:41:13-42
+60            android:exported="false"
+60-->/Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:42:13-37
+61            android:theme="@style/Theme.Material3.Light.NoActionBar" />
+61-->/Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:43:13-69
+62        <activity
+62-->/Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:44:9-47:72
+63            android:name="com.coffee.shop.RegisterActivity"
+63-->/Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:45:13-45
+64            android:exported="true"
+64-->/Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:46:13-36
+65            android:theme="@style/Theme.Material3.Light.NoActionBar" />
+65-->/Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:47:13-69
+66        <activity
+66-->/Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:48:9-51:72
+67            android:name="com.coffee.shop.MainActivity"
+67-->/Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:49:13-41
+68            android:exported="true"
+68-->/Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:50:13-36
+69            android:theme="@style/Theme.Material3.Light.NoActionBar" />
+69-->/Users/Admin/Desktop/final-project/coffee-order-app/app/src/main/AndroidManifest.xml:51:13-69
+70        <activity
+70-->[com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:27:9-44:20
+71            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+71-->[com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:28:13-80
+72            android:excludeFromRecents="true"
+72-->[com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:29:13-46
+73            android:exported="true"
+73-->[com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:30:13-36
+74            android:launchMode="singleTask"
+74-->[com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:31:13-44
+75            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+75-->[com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:32:13-72
+76            <intent-filter>
+76-->[com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:33:13-43:29
+77                <action android:name="android.intent.action.VIEW" />
+77-->[com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:34:17-69
+77-->[com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:34:25-66
 78
-79                <data
-79-->[com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:39:17-42:51
-80                    android:host="firebase.auth"
-80-->[com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:40:21-49
-81                    android:path="/"
-81-->[com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:41:21-37
-82                    android:scheme="genericidp" />
-82-->[com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:42:21-48
-83            </intent-filter>
-84        </activity>
-85        <activity
-85-->[com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:45:9-62:20
-86            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
-86-->[com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:46:13-79
-87            android:excludeFromRecents="true"
-87-->[com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:47:13-46
-88            android:exported="true"
-88-->[com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:48:13-36
-89            android:launchMode="singleTask"
-89-->[com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:49:13-44
-90            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-90-->[com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:50:13-72
-91            <intent-filter>
-91-->[com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:51:13-61:29
-92                <action android:name="android.intent.action.VIEW" />
-92-->[com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:34:17-69
-92-->[com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:34:25-66
-93
-94                <category android:name="android.intent.category.DEFAULT" />
-94-->[com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:36:17-76
-94-->[com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:36:27-73
-95                <category android:name="android.intent.category.BROWSABLE" />
-95-->[com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:37:17-78
-95-->[com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:37:27-75
+79                <category android:name="android.intent.category.DEFAULT" />
+79-->[com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:36:17-76
+79-->[com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:36:27-73
+80                <category android:name="android.intent.category.BROWSABLE" />
+80-->[com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:37:17-78
+80-->[com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:37:27-75
+81
+82                <data
+82-->[com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:39:17-42:51
+83                    android:host="firebase.auth"
+83-->[com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:40:21-49
+84                    android:path="/"
+84-->[com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:41:21-37
+85                    android:scheme="genericidp" />
+85-->[com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:42:21-48
+86            </intent-filter>
+87        </activity>
+88        <activity
+88-->[com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:45:9-62:20
+89            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+89-->[com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:46:13-79
+90            android:excludeFromRecents="true"
+90-->[com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:47:13-46
+91            android:exported="true"
+91-->[com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:48:13-36
+92            android:launchMode="singleTask"
+92-->[com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:49:13-44
+93            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+93-->[com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:50:13-72
+94            <intent-filter>
+94-->[com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:51:13-61:29
+95                <action android:name="android.intent.action.VIEW" />
+95-->[com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:34:17-69
+95-->[com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:34:25-66
 96
-97                <data
-97-->[com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:39:17-42:51
-98                    android:host="firebase.auth"
-98-->[com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:40:21-49
-99                    android:path="/"
-99-->[com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:41:21-37
-100                    android:scheme="recaptcha" />
-100-->[com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:42:21-48
-101            </intent-filter>
-102        </activity>
-103
-104        <service
-104-->[com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:64:9-70:19
-105            android:name="com.google.firebase.components.ComponentDiscoveryService"
-105-->[com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:65:13-84
-106            android:directBootAware="true"
-106-->[com.google.firebase:firebase-common:20.2.0] /Users/Admin/.gradle/caches/transforms-3/a04a61fa20c3292f8c70c08012d83d43/transformed/firebase-common-20.2.0/AndroidManifest.xml:34:13-43
-107            android:exported="false" >
-107-->[com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:66:13-37
-108            <meta-data
-108-->[com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:67:13-69:85
-109                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-109-->[com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:68:17-109
-110                android:value="com.google.firebase.components.ComponentRegistrar" />
-110-->[com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:69:17-82
-111        </service>
-112
-113        <provider
-113-->[com.google.firebase:firebase-common:20.2.0] /Users/Admin/.gradle/caches/transforms-3/a04a61fa20c3292f8c70c08012d83d43/transformed/firebase-common-20.2.0/AndroidManifest.xml:25:9-30:39
-114            android:name="com.google.firebase.provider.FirebaseInitProvider"
-114-->[com.google.firebase:firebase-common:20.2.0] /Users/Admin/.gradle/caches/transforms-3/a04a61fa20c3292f8c70c08012d83d43/transformed/firebase-common-20.2.0/AndroidManifest.xml:26:13-77
-115            android:authorities="com.coffee.shop.firebaseinitprovider"
-115-->[com.google.firebase:firebase-common:20.2.0] /Users/Admin/.gradle/caches/transforms-3/a04a61fa20c3292f8c70c08012d83d43/transformed/firebase-common-20.2.0/AndroidManifest.xml:27:13-72
-116            android:directBootAware="true"
-116-->[com.google.firebase:firebase-common:20.2.0] /Users/Admin/.gradle/caches/transforms-3/a04a61fa20c3292f8c70c08012d83d43/transformed/firebase-common-20.2.0/AndroidManifest.xml:28:13-43
-117            android:exported="false"
-117-->[com.google.firebase:firebase-common:20.2.0] /Users/Admin/.gradle/caches/transforms-3/a04a61fa20c3292f8c70c08012d83d43/transformed/firebase-common-20.2.0/AndroidManifest.xml:29:13-37
-118            android:initOrder="100" />
-118-->[com.google.firebase:firebase-common:20.2.0] /Users/Admin/.gradle/caches/transforms-3/a04a61fa20c3292f8c70c08012d83d43/transformed/firebase-common-20.2.0/AndroidManifest.xml:30:13-36
-119
-120        <activity
-120-->[com.google.android.gms:play-services-base:17.1.0] /Users/Admin/.gradle/caches/transforms-3/ea0bf82ab26cfa50c62d5d7673c1f790/transformed/play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
-121            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-121-->[com.google.android.gms:play-services-base:17.1.0] /Users/Admin/.gradle/caches/transforms-3/ea0bf82ab26cfa50c62d5d7673c1f790/transformed/play-services-base-17.1.0/AndroidManifest.xml:24:13-79
-122            android:exported="false"
-122-->[com.google.android.gms:play-services-base:17.1.0] /Users/Admin/.gradle/caches/transforms-3/ea0bf82ab26cfa50c62d5d7673c1f790/transformed/play-services-base-17.1.0/AndroidManifest.xml:25:13-37
-123            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-123-->[com.google.android.gms:play-services-base:17.1.0] /Users/Admin/.gradle/caches/transforms-3/ea0bf82ab26cfa50c62d5d7673c1f790/transformed/play-services-base-17.1.0/AndroidManifest.xml:26:13-72
-124
-125        <meta-data
-125-->[com.google.android.gms:play-services-basement:18.1.0] /Users/Admin/.gradle/caches/transforms-3/49ce6122932f5285b401f570e61a56b9/transformed/play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
-126            android:name="com.google.android.gms.version"
-126-->[com.google.android.gms:play-services-basement:18.1.0] /Users/Admin/.gradle/caches/transforms-3/49ce6122932f5285b401f570e61a56b9/transformed/play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
-127            android:value="@integer/google_play_services_version" />
-127-->[com.google.android.gms:play-services-basement:18.1.0] /Users/Admin/.gradle/caches/transforms-3/49ce6122932f5285b401f570e61a56b9/transformed/play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
-128
-129        <provider
-129-->[androidx.emoji2:emoji2:1.2.0] /Users/Admin/.gradle/caches/transforms-3/eb88012741a64135b462a95b61c1572e/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
-130            android:name="androidx.startup.InitializationProvider"
-130-->[androidx.emoji2:emoji2:1.2.0] /Users/Admin/.gradle/caches/transforms-3/eb88012741a64135b462a95b61c1572e/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
-131            android:authorities="com.coffee.shop.androidx-startup"
-131-->[androidx.emoji2:emoji2:1.2.0] /Users/Admin/.gradle/caches/transforms-3/eb88012741a64135b462a95b61c1572e/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
-132            android:exported="false" >
-132-->[androidx.emoji2:emoji2:1.2.0] /Users/Admin/.gradle/caches/transforms-3/eb88012741a64135b462a95b61c1572e/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
-133            <meta-data
-133-->[androidx.emoji2:emoji2:1.2.0] /Users/Admin/.gradle/caches/transforms-3/eb88012741a64135b462a95b61c1572e/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
-134                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-134-->[androidx.emoji2:emoji2:1.2.0] /Users/Admin/.gradle/caches/transforms-3/eb88012741a64135b462a95b61c1572e/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
-135                android:value="androidx.startup" />
-135-->[androidx.emoji2:emoji2:1.2.0] /Users/Admin/.gradle/caches/transforms-3/eb88012741a64135b462a95b61c1572e/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+97                <category android:name="android.intent.category.DEFAULT" />
+97-->[com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:36:17-76
+97-->[com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:36:27-73
+98                <category android:name="android.intent.category.BROWSABLE" />
+98-->[com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:37:17-78
+98-->[com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:37:27-75
+99
+100                <data
+100-->[com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:39:17-42:51
+101                    android:host="firebase.auth"
+101-->[com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:40:21-49
+102                    android:path="/"
+102-->[com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:41:21-37
+103                    android:scheme="recaptcha" />
+103-->[com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:42:21-48
+104            </intent-filter>
+105        </activity>
+106
+107        <service
+107-->[com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:64:9-70:19
+108            android:name="com.google.firebase.components.ComponentDiscoveryService"
+108-->[com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:65:13-84
+109            android:directBootAware="true"
+109-->[com.google.firebase:firebase-common:20.2.0] /Users/Admin/.gradle/caches/transforms-3/a04a61fa20c3292f8c70c08012d83d43/transformed/firebase-common-20.2.0/AndroidManifest.xml:34:13-43
+110            android:exported="false" >
+110-->[com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:66:13-37
+111            <meta-data
+111-->[com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:67:13-69:85
+112                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+112-->[com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:68:17-109
+113                android:value="com.google.firebase.components.ComponentRegistrar" />
+113-->[com.google.firebase:firebase-auth:21.1.0] /Users/Admin/.gradle/caches/transforms-3/1231a1dab4b87d505d0d09bf19c475ad/transformed/firebase-auth-21.1.0/AndroidManifest.xml:69:17-82
+114        </service>
+115
+116        <provider
+116-->[com.google.firebase:firebase-common:20.2.0] /Users/Admin/.gradle/caches/transforms-3/a04a61fa20c3292f8c70c08012d83d43/transformed/firebase-common-20.2.0/AndroidManifest.xml:25:9-30:39
+117            android:name="com.google.firebase.provider.FirebaseInitProvider"
+117-->[com.google.firebase:firebase-common:20.2.0] /Users/Admin/.gradle/caches/transforms-3/a04a61fa20c3292f8c70c08012d83d43/transformed/firebase-common-20.2.0/AndroidManifest.xml:26:13-77
+118            android:authorities="com.coffee.shop.firebaseinitprovider"
+118-->[com.google.firebase:firebase-common:20.2.0] /Users/Admin/.gradle/caches/transforms-3/a04a61fa20c3292f8c70c08012d83d43/transformed/firebase-common-20.2.0/AndroidManifest.xml:27:13-72
+119            android:directBootAware="true"
+119-->[com.google.firebase:firebase-common:20.2.0] /Users/Admin/.gradle/caches/transforms-3/a04a61fa20c3292f8c70c08012d83d43/transformed/firebase-common-20.2.0/AndroidManifest.xml:28:13-43
+120            android:exported="false"
+120-->[com.google.firebase:firebase-common:20.2.0] /Users/Admin/.gradle/caches/transforms-3/a04a61fa20c3292f8c70c08012d83d43/transformed/firebase-common-20.2.0/AndroidManifest.xml:29:13-37
+121            android:initOrder="100" />
+121-->[com.google.firebase:firebase-common:20.2.0] /Users/Admin/.gradle/caches/transforms-3/a04a61fa20c3292f8c70c08012d83d43/transformed/firebase-common-20.2.0/AndroidManifest.xml:30:13-36
+122
+123        <activity
+123-->[com.google.android.gms:play-services-base:17.1.0] /Users/Admin/.gradle/caches/transforms-3/ea0bf82ab26cfa50c62d5d7673c1f790/transformed/play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+124            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+124-->[com.google.android.gms:play-services-base:17.1.0] /Users/Admin/.gradle/caches/transforms-3/ea0bf82ab26cfa50c62d5d7673c1f790/transformed/play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+125            android:exported="false"
+125-->[com.google.android.gms:play-services-base:17.1.0] /Users/Admin/.gradle/caches/transforms-3/ea0bf82ab26cfa50c62d5d7673c1f790/transformed/play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+126            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+126-->[com.google.android.gms:play-services-base:17.1.0] /Users/Admin/.gradle/caches/transforms-3/ea0bf82ab26cfa50c62d5d7673c1f790/transformed/play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+127
+128        <meta-data
+128-->[com.google.android.gms:play-services-basement:18.1.0] /Users/Admin/.gradle/caches/transforms-3/49ce6122932f5285b401f570e61a56b9/transformed/play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+129            android:name="com.google.android.gms.version"
+129-->[com.google.android.gms:play-services-basement:18.1.0] /Users/Admin/.gradle/caches/transforms-3/49ce6122932f5285b401f570e61a56b9/transformed/play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+130            android:value="@integer/google_play_services_version" />
+130-->[com.google.android.gms:play-services-basement:18.1.0] /Users/Admin/.gradle/caches/transforms-3/49ce6122932f5285b401f570e61a56b9/transformed/play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+131
+132        <provider
+132-->[androidx.emoji2:emoji2:1.2.0] /Users/Admin/.gradle/caches/transforms-3/eb88012741a64135b462a95b61c1572e/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+133            android:name="androidx.startup.InitializationProvider"
+133-->[androidx.emoji2:emoji2:1.2.0] /Users/Admin/.gradle/caches/transforms-3/eb88012741a64135b462a95b61c1572e/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+134            android:authorities="com.coffee.shop.androidx-startup"
+134-->[androidx.emoji2:emoji2:1.2.0] /Users/Admin/.gradle/caches/transforms-3/eb88012741a64135b462a95b61c1572e/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+135            android:exported="false" >
+135-->[androidx.emoji2:emoji2:1.2.0] /Users/Admin/.gradle/caches/transforms-3/eb88012741a64135b462a95b61c1572e/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
 136            <meta-data
-136-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/Admin/.gradle/caches/transforms-3/c7a191cd82385db201399497594f5497/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
-137                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-137-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/Admin/.gradle/caches/transforms-3/c7a191cd82385db201399497594f5497/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+136-->[androidx.emoji2:emoji2:1.2.0] /Users/Admin/.gradle/caches/transforms-3/eb88012741a64135b462a95b61c1572e/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+137                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+137-->[androidx.emoji2:emoji2:1.2.0] /Users/Admin/.gradle/caches/transforms-3/eb88012741a64135b462a95b61c1572e/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
 138                android:value="androidx.startup" />
-138-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/Admin/.gradle/caches/transforms-3/c7a191cd82385db201399497594f5497/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
-139        </provider>
-140    </application>
-141
-142</manifest>
+138-->[androidx.emoji2:emoji2:1.2.0] /Users/Admin/.gradle/caches/transforms-3/eb88012741a64135b462a95b61c1572e/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+139            <meta-data
+139-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/Admin/.gradle/caches/transforms-3/c7a191cd82385db201399497594f5497/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+140                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+140-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/Admin/.gradle/caches/transforms-3/c7a191cd82385db201399497594f5497/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+141                android:value="androidx.startup" />
+141-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/Admin/.gradle/caches/transforms-3/c7a191cd82385db201399497594f5497/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+142        </provider>
+143    </application>
+144
+145</manifest>

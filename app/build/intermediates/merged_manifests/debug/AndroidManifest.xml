@@ -31,6 +31,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.CoffeeShop" >
         <activity
+            android:name="com.coffee.shop.PlaceYourOrderActivity"
+            android:exported="false" />
+        <activity
             android:name="com.coffee.shop.RestaurantMenuActivity"
             android:exported="false"
             android:theme="@style/Theme.Material3.Light.NoActionBar" />
