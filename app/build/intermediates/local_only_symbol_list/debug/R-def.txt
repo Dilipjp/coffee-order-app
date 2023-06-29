@@ -1,6 +1,11 @@
 R_DEF: Internal format may change without notice
 local
 color black
+color purple_200
+color purple_500
+color purple_700
+color teal_200
+color teal_700
 color white
 drawable baseline_arrow_back_24
 drawable ic_fsplash
@@ -9,6 +14,7 @@ drawable ic_launcher_foreground
 drawable logo
 id btn_login
 id btn_register
+id cardView
 id drawerLayout
 id email
 id emailTextView
@@ -20,7 +26,12 @@ id navigationView
 id password
 id profileImageView
 id progressbar
+id recyclerView
 id registerNow
+id restaurantAddress
+id restaurantHours
+id restaurantName
+id thumbImage
 id toolbar
 layout activity_login
 layout activity_main
@@ -29,9 +40,11 @@ layout activity_profile
 layout activity_register
 layout activity_splash
 layout nav_header
+layout recycler_row
 menu nav_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
+raw restaurent
 string app_name
 string default_web_client_id
 string email

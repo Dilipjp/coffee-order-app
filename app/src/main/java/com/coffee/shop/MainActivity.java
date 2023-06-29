@@ -4,17 +4,31 @@ import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.coffee.shop.adapters.RestaurantListAdapter;
+import com.coffee.shop.model.RestaurantModel;
 import com.google.android.material.navigation.NavigationView;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.gson.Gson;
 
-public class MainActivity extends AppCompatActivity {
+import java.io.BufferedReader;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.Reader;
+import java.io.StringWriter;
+import java.io.Writer;
+import java.util.Arrays;
+import java.util.List;
+
+public class MainActivity extends AppCompatActivity implements RestaurantListAdapter.RestaurantListClickListener {
 
     DrawerLayout drawerLayout;
     NavigationView navigationView;
@@ -53,7 +67,11 @@ public class MainActivity extends AppCompatActivity {
             return true;
         });
 
+//new
+        List<RestaurantModel> restaurantModelList =  getRestaurantData();
 
+        initRecyclerView(restaurantModelList);
+        //new
         mAuth = FirebaseAuth.getInstance();
         currentUser = mAuth.getCurrentUser();
 //        btn_logout = findViewById(R.id.btn_logout);
@@ -77,5 +95,40 @@ public class MainActivity extends AppCompatActivity {
 //
 //            }
 //        });
+    }
+
+    private void initRecyclerView(List<RestaurantModel> restaurantModelList ) {
+        RecyclerView recyclerView =  findViewById(R.id.recyclerView);
+        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+        RestaurantListAdapter adapter = new RestaurantListAdapter(restaurantModelList, (RestaurantListAdapter.RestaurantListClickListener) this);
+        recyclerView.setAdapter(adapter);
+    }
+
+    private List<RestaurantModel> getRestaurantData() {
+        InputStream is = getResources().openRawResource(R.raw.restaurent);
+        Writer writer = new StringWriter();
+        char[] buffer = new char[1024];
+        try{
+            Reader reader = new BufferedReader(new InputStreamReader(is, "UTF-8"));
+            int n;
+            while(( n = reader.read(buffer)) != -1) {
+                writer.write(buffer, 0,n);
+            }
+        }catch (Exception e) {
+
+        }
+
+        String jsonStr = writer.toString();
+        Gson gson = new Gson();
+        RestaurantModel[] restaurantModels =  gson.fromJson(jsonStr, RestaurantModel[].class);
+        List<RestaurantModel> restList = Arrays.asList(restaurantModels);
+
+        return  restList;
+
+    }
+
+    @Override
+    public void onItemClick(RestaurantModel restaurantModel) {
+
     }
 }

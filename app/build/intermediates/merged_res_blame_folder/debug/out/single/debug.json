@@ -28,6 +28,10 @@
         "source": "/Users/Admin/.gradle/daemon/8.0/com.coffee.shop.app-main-36:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
+        "merged": "/Users/Admin/.gradle/daemon/8.0/com.coffee.shop.app-merged_res-34:/raw_restaurent.json.flat",
+        "source": "/Users/Admin/.gradle/daemon/8.0/com.coffee.shop.app-main-36:/raw/restaurent.json"
+    },
+    {
         "merged": "/Users/Admin/.gradle/daemon/8.0/com.coffee.shop.app-merged_res-34:/drawable_logo.jpg.flat",
         "source": "/Users/Admin/.gradle/daemon/8.0/com.coffee.shop.app-main-36:/drawable/logo.jpg"
     },
@@ -46,6 +50,10 @@
     {
         "merged": "/Users/Admin/.gradle/daemon/8.0/com.coffee.shop.app-merged_res-34:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
         "source": "/Users/Admin/.gradle/daemon/8.0/com.coffee.shop.app-main-36:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/Admin/.gradle/daemon/8.0/com.coffee.shop.app-merged_res-34:/layout_recycler_row.xml.flat",
+        "source": "/Users/Admin/.gradle/daemon/8.0/com.coffee.shop.app-main-36:/layout/recycler_row.xml"
     },
     {
         "merged": "/Users/Admin/.gradle/daemon/8.0/com.coffee.shop.app-merged_res-34:/layout_activity_profile.xml.flat",
@@ -76,8 +84,8 @@
         "source": "/Users/Admin/.gradle/daemon/8.0/com.coffee.shop.app-main-36:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.coffee.shop.app-merged_res-34:/drawable_ic_fsplash.xml.flat",
-        "source": "com.coffee.shop.app-main-36:/drawable/ic_fsplash.xml"
+        "merged": "com.coffee.shop.app-merged_res-34:/layout_recycler_row.xml.flat",
+        "source": "com.coffee.shop.app-main-36:/layout/recycler_row.xml"
     },
     {
         "merged": "/Users/Admin/.gradle/daemon/8.0/com.coffee.shop.app-merged_res-34:/layout_activity_splash.xml.flat",
